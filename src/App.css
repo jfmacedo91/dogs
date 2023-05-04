@@ -4,11 +4,12 @@
 
 body {
   margin: 0;
-  color: #333;
+  padding-top: 4rem;
+  color: #333333;
   --type-first: Helvetica, Arial, Inter, sans-serif;
   --type-second: Spectral, Georgia;
   font-family: var(--type-first);
-  background-color: grey;
+  background-color: #999999;
 }
 
 h1, h2, h3, h4, p {
@@ -30,7 +31,11 @@ button, input {
   display: block;
   font-size: 1rem;
   font-family: var(--type-first);
-  color: #333;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
